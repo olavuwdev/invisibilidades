@@ -48,7 +48,7 @@ form:focus{
     margin-left: 1.7rem;
     margin-right: 1rem;
     cursor: pointer;
-    padding-right: 3rem;
+
   }
   .navbar a{
     padding-right: 4.5rem;
@@ -57,7 +57,7 @@ form:focus{
     display: none;
   }
   .navbar .icons div:hover{
-    color:rgb(219, 214, 214);
+    color:rgb(255, 255, 255);
 }
   .brand-logo{
     height:75px;
@@ -78,9 +78,11 @@ form:focus{
   
   .navbar-links ul {
       display: flex;
+      flex-wrap: wrap;
       margin: 0;
       padding: 0;
-      padding-left: 50px;
+      text-align: center;
+
   }
   
   .navbar-links li {
@@ -227,32 +229,30 @@ form:focus{
   }
   .navbar .navbar-links{
     position: fixed;
-    top: 80%;
     right: 110%;
-    width: 30rem;
     display: flex;
-    background-color: white;
     border-radius: .5rem;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
-    z-index: 999;
+    top: 12%;
+    width: 35%;
+    height: 27rem;
+    background-color: #f7c820;
 }
 .navbar .navbar-links.active{
-    margin-right: 3rem;
-    right: .2rem;
-    top: 10%;
-    width: 80%;
-    height: 4rem;
+    
+    right: 2rem;
+
     transition: .4s linear;
-    background-color: red;
-    display: block;
+
+
+
 }
 .navbar .navbar-links a{
-    display: block;
-    font-size: .7rem;
-    margin: 2rem 2.5rem;
-    color: black;
-    border-bottom: 1px solid black;
-    border-bottom-style:dotted ;
+  font-size: 1rem;
+  margin:  1rem;
+  color: #2a006a;
+  border-bottom: 1px solid black;
+  border-bottom-style:dotted ;
 }
   
   }

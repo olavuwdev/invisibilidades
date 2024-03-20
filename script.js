@@ -6,6 +6,10 @@ window.addEventListener("focus", () =>{
     document.title = docTitle;
 })
 
+window.onscroll = () =>{
+    menuResponsivo.classList.remove('active');
+
+}
 
 
 let menuResponsivo = document.querySelector('.navbar-links');
