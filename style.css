@@ -14,12 +14,6 @@ form:focus{
 
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    background-attachment: fixed;
-    font-weight: bold;
-  }
 
   .navbar-links li a:hover {
     color: #fff;
@@ -40,7 +34,7 @@ form:focus{
   }
   
   
-  .navbar {
+  .navbar{
       display: flex;
       position: relative;
       justify-content: space-between;
@@ -232,17 +226,25 @@ form:focus{
     display: inline-block;
   }
   .navbar .navbar-links{
-    position:inherit;
+    position: fixed;
     top: 80%;
     right: 110%;
     width: 30rem;
+    display: flex;
     background-color: white;
     border-radius: .5rem;
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    z-index: 999;
 }
 .navbar .navbar-links.active{
-    right: 2rem;
+    margin-right: 3rem;
+    right: .2rem;
+    top: 10%;
+    width: 80%;
+    height: 4rem;
     transition: .4s linear;
+    background-color: red;
+    display: block;
 }
 .navbar .navbar-links a{
     display: block;
@@ -308,14 +310,7 @@ form:focus{
     border-radius: 15px;
   }
   
-  body{
-  
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    width: 100%;
-    overflow-x: hidden;
-  }
+
   
   @media (max-width: 1300px) {
     .content{
@@ -355,11 +350,11 @@ form:focus{
 
 
 
-  .navbar-links li a:hover {
-  color: #fff;
-  background-color: #2a006a;
-  transition: 0.2s;
-}
+  .navbar-links li a:hover{
+    color: #fff;
+    background-color: #2a006a;
+    transition: 0.2s;
+  }
   a{
     color:#2a006a; ;
   }
@@ -369,21 +364,21 @@ form:focus{
 
   
   html{
-scroll-behavior: smooth;
-}
+  scroll-behavior: smooth;
+  }
 .irao_{
-font-size: 15px;
-background-color: #f7c820;
-padding: 25px;
-text-decoration: none;
-outline-style: solid;
-outline-color: #2a006a;
-outline-width: 2px;
-}
+  font-size: 15px;
+  background-color: #f7c820;
+  padding: 25px;
+  text-decoration: none;
+  outline-style: solid;
+  outline-color: #2a006a;
+  outline-width: 2px;
+  }
 
 .irao_:hover{
-background-color: #2a006a;
-color: white;
-transition: 0.2s;
-}
+  background-color: #2a006a;
+  color: white;
+  transition: 0.2s;
+  }
 
