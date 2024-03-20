@@ -1,0 +1,5 @@
+Essa pasta armazenará todos os arquivos que serão cadastrados no banco de dados.
+
+NÃO apague este arquivo de texto!
+Em caso de necessidade de envio da pasta do site, é necessário que a pasta "arquivos" nunca esteja vazia.
+or isso há este arquivo de texto.

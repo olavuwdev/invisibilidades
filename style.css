@@ -1,0 +1,389 @@
+*:focus{
+  background-color: deepskyblue;
+  color: white;
+
+}
+
+.irao_:focus{
+  background-color: deepskyblue;
+}
+
+form:focus{
+  background-color: deepskyblue;
+  color: white;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    background-attachment: fixed;
+    font-weight: bold;
+  }
+
+  .navbar-links li a:hover {
+    color: #fff;
+    background-color: #2a006a;
+    transition: 1s ease;
+}
+
+
+  /*CSS DA NAVBAR*/
+  * {
+      box-sizing: border-box;
+  }
+  
+  body {
+      margin: 0;
+      padding: 0;
+      background-image: url("images/maesgrandes.png");
+  }
+  
+  
+  .navbar {
+      display: flex;
+      position: relative;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #f7c820;
+      color: #2a006a !important;
+  }
+  .navbar .icons div{
+    color: #2a006a;
+    font-size: 1.7rem;
+    margin-left: 1.7rem;
+    margin-right: 1rem;
+    cursor: pointer;
+    padding-right: 3rem;
+  }
+  .navbar a{
+    padding-right: 4.5rem;
+  }
+  #menu{
+    display: none;
+  }
+  .navbar .icons div:hover{
+    color:rgb(219, 214, 214);
+}
+  .brand-logo{
+    height:75px;
+    width:150px;
+    margin-left: 50px;
+    padding-left: 10px;
+  }
+  
+  .brand-logo:hover{
+    cursor: pointer;
+  }
+  
+  .navbar-links {
+      height: 100%;
+    margin-right: 50px;
+    padding-right: 10px;
+  }
+  
+  .navbar-links ul {
+      display: flex;
+      margin: 0;
+      padding: 0;
+      padding-left: 50px;
+  }
+  
+  .navbar-links li {
+      list-style: none;
+  }
+  
+  .navbar-links li a {
+      display: block;
+      text-decoration: none;
+      padding: 15px;
+      font-family: "Montserrat";
+  }
+  
+  .navbar-links li a:hover {
+      color: #fff;
+      background-color: #2a006a;
+      transition: 1s ease;
+  }
+
+  
+  
+  /*//CSS DA NAVBAR*/
+  
+  
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  footer{
+      background-color: #2a006a;
+      padding: 50px;
+  }
+  .container-footer{
+      max-width: 1400px;
+      padding: 0 4%;
+      margin: auto;
+  }
+  .row-footer{
+      display: flex;
+      flex-wrap: wrap;
+  }
+  
+  .footer-col-img{
+    overflow: hidden;
+    height: 200px;
+    width: 200px;
+  }
+  
+  .footer-col{
+      width: 25%;
+      padding: 0 15px;
+  }
+  .footer-col h4{
+      font-size: 22px;
+      color: white;
+      margin-bottom: 20px;
+      font-weight: 500;
+      position: relative;
+      text-transform: uppercase;
+  }
+  .footer-col ul{
+      list-style: none;
+  }
+  .footer-col ul li{
+      margin: 10px 0;
+  }
+  .footer-col ul li a{
+      font-size: 16px;
+      text-transform: capitalize;
+      color: #fff;
+      text-decoration: none;
+      font-weight: 300;
+      display: block;
+      transition: all 0.3s ease;
+  }
+  .footer-col ul li a:hover{
+      opacity: 70%;
+      padding-left: 10px;
+  }
+  .footer-col .medias-socias{
+    margin: 10px 0;
+    
+  }
+  .footer-col .medias-socias a{
+    font-size: 1.7rem;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 300;
+    display: inline-block;
+    transition: all 0.3s ease;
+    padding-bottom:10px;
+  }
+
+  
+  .footer-col .medias-socias a:hover{
+    padding-left: 5px;
+  }
+  .footer-col .form-sub input{
+      width: 100%;
+      padding: 10px;
+      font-size: 15px;
+      outline: none;
+      border: 1px solid white;
+      color: white;
+      background-color: #415aca;
+  }
+  .footer-col .form-sub input::placeholder{
+      color: white;
+  }
+  .footer-col .form-sub button{
+      width: 100%;
+      margin-top: 10px;
+      padding: 10px; 
+      font-size: 17px;
+      outline: none;
+      border: none;
+      cursor: pointer;
+      color: #415aca;
+      border-radius: 3px;
+      font-weight: bold;
+      background-color: white;        
+  }
+  /* Responsivo */
+  @media (max-width: 800px) {
+      .footer-col{
+          width: 50%;
+          margin-bottom: 30px;
+      }
+  }
+  
+  @media (max-width:600px) {
+      .footer-col{
+          width: 100%;
+      }
+  }
+
+  @media (max-width: 560px){
+
+  .navbar .icons #menu{
+    display: inline-block;
+  }
+  .navbar .navbar-links{
+    position:inherit;
+    top: 80%;
+    right: 110%;
+    width: 30rem;
+    background-color: white;
+    border-radius: .5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+}
+.navbar .navbar-links.active{
+    right: 2rem;
+    transition: .4s linear;
+}
+.navbar .navbar-links a{
+    display: block;
+    font-size: .7rem;
+    margin: 2rem 2.5rem;
+    color: black;
+    border-bottom: 1px solid black;
+    border-bottom-style:dotted ;
+}
+  
+  }
+  
+  /*CSS DO FOOTER*/
+  
+  .h1-body { 
+    color: #2a006a;;
+    font-family:'Montserrat';
+    font-size: 45px;
+    font-weight: normal;
+    line-height: 48px;
+    margin-top: 10vh; 
+    text-align: left;
+    overflow-y: hidden;
+    padding-left: 50px;
+  }
+  
+  .p-body { 
+    color: #2a006a;; 
+    font-family:'Montserrat';
+    font-size: 20px; 
+    line-height: 32px; 
+    margin: 0 0 24px; 
+    padding: 50px;
+    text-align: left;
+    overflow-y: hidden;
+  }
+  
+
+  main{
+    height: 100%;
+    width: 100vw;
+    overflow:hidden;
+    background-image: url("images/maesgrandes.png");
+  }
+  
+  *{
+    overflow-x: hidden;
+  }
+  
+  .content {
+    text-align: center;
+    background-color: #E3EDF9;
+    margin-left: 220px;
+    margin-right: 220px;
+    padding: 15px;
+  }
+  
+  .img-body{
+    overflow: hidden;
+    height: auto;
+    width:100%;
+    max-width: 100%;
+    border-radius: 15px;
+  }
+  
+  body{
+  
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    width: 100%;
+    overflow-x: hidden;
+  }
+  
+  @media (max-width: 1300px) {
+    .content{
+      margin-left: 0;
+      margin-right: 0;
+      background-image: url("images/maes.png");
+      background-color: transparent;
+      
+    }
+    main{
+    padding: 0;
+  }
+  
+    .brand-logo{
+    margin-left: 0;
+    height: 75px;
+    width: 150px;
+    position: static;
+    margin-right: 10px;
+  }
+  
+    .navbar-links li a {
+      margin-right: 0;
+  }
+  
+    .navbar-links {
+      height: 100%;
+    margin-right: 0px;
+  }
+  .irao_{
+    outline-style: none;
+    
+    }
+    
+  }
+
+
+
+
+  .navbar-links li a:hover {
+  color: #fff;
+  background-color: #2a006a;
+  transition: 0.2s;
+}
+  a{
+    color:#2a006a; ;
+  }
+  .img-body{
+    width: 1000px;
+  }
+
+  
+  html{
+scroll-behavior: smooth;
+}
+.irao_{
+font-size: 15px;
+background-color: #f7c820;
+padding: 25px;
+text-decoration: none;
+outline-style: solid;
+outline-color: #2a006a;
+outline-width: 2px;
+}
+
+.irao_:hover{
+background-color: #2a006a;
+color: white;
+transition: 0.2s;
+}
+
