@@ -1,6 +1,10 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 *:focus{
   background-color: deepskyblue;
   color: white;
+  font-family: "Poppins", sans-serif;
 
 }
 
@@ -251,17 +255,67 @@ form:focus{
   font-size: 1rem;
   margin:  1rem;
   color: #2a006a;
-  border-bottom: 1px solid black;
-  border-bottom-style:dotted ;
+
 }
   
   }
+
+/* INICIO ARTIGOS*/
+.content .titulo_Artigos{
+  font-size: 2rem;
+  color: #2a006a;
+}
+.content .post_Artigo{
+  font-size: 1rem;
+  margin: 3rem;
+
+}
+.content .post_Artigo .texto{
+  font-family: "Poppins", sans-serif;
+}
+.content .post_Artigo .autor{
+  font-size: 1rem;
+}
+.content .post_Artigo .imagem_Post{
+  width:100%;
+  max-width: 100%;
+}
+
+
+  /*INICIO CSS DA GALERIA*/
+
+  .galeria{
+    background-color: #f7c820;
+    margin: 3rem;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 2rem;
+  }
+  .photo {
+    margin: 10px;
+    text-align: center;
+  }
+  .photo img {
+    width: 100%; /* Ajuste conforme necessário */
+    height: auto;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+  }
   
+  .caption {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #333333;
+  }
   /*CSS DO FOOTER*/
   
   .h1-body { 
     color: #2a006a;;
-    font-family:'Montserrat';
+    
     font-size: 45px;
     font-weight: normal;
     line-height: 48px;
@@ -273,7 +327,7 @@ form:focus{
   
   .p-body { 
     color: #2a006a;; 
-    font-family:'Montserrat';
+    
     font-size: 20px; 
     line-height: 32px; 
     margin: 0 0 24px; 
