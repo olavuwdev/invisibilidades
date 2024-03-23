@@ -221,18 +221,22 @@ form:focus{
 }
 .content .post_Artigo{
   font-size: 1rem;
-  margin: 3rem;
+  margin: 4rem;
 
 }
 .content .post_Artigo .texto{
   font-family: "Poppins", sans-serif;
+
+
 }
 .content .post_Artigo .autor{
   font-size: 1rem;
 }
 .content .post_Artigo .imagem_Post{
-  width:100%;
-  max-width: 100%;
+  max-width: 100%; /* Garante que a imagem não ultrapasse o contêiner pai */
+  height: auto; /* Mantém a proporção da imagem */
+  overflow: hidden;
+  border-radius: .7rem;
 }
 
 
@@ -365,11 +369,20 @@ form:focus{
         width: 50%;
         margin-bottom: 30px;
     }
+    .galeria{
+      margin: .5rem;
+    }
 }
 
 @media (max-width:600px) {
     .footer-col{
         width: 100%;
+    }
+    .content .post_Artigo{
+      margin: 0;
+    }
+    .galeria{
+      margin: .5rem;
     }
 }
 
@@ -390,19 +403,17 @@ form:focus{
   background-color: #f7c820;
 }
 .navbar .navbar-links.active{
-    
     right: 2rem;
-
     transition: .4s linear;
-
-
-
 }
 .navbar .navbar-links a{
   font-size: 1rem;
   margin:  1rem;
   color: #2a006a;
 
+}
+.galeria{
+  margin: .5rem ;
 }
 
 }
@@ -434,6 +445,7 @@ form:focus{
     height: 100%;
   margin-right: 0px;
 }
+
 .irao_{
   outline-style: none;
   }

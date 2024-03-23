@@ -15,6 +15,7 @@ window.onscroll = () =>{
 let menuResponsivo = document.querySelector('.navbar-links');
 document.querySelector('#menu').onclick = () => {
     menuResponsivo.classList.toggle('active');
+    console.log("Teste")
 };
 
 
