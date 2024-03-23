@@ -212,53 +212,7 @@ form:focus{
       font-weight: bold;
       background-color: white;        
   }
-  /* Responsivo */
-  @media (max-width: 800px) {
-      .footer-col{
-          width: 50%;
-          margin-bottom: 30px;
-      }
-  }
   
-  @media (max-width:600px) {
-      .footer-col{
-          width: 100%;
-      }
-  }
-
-  @media (max-width: 560px){
-
-  .navbar .icons #menu{
-    display: inline-block;
-  }
-  .navbar .navbar-links{
-    position: fixed;
-    right: 110%;
-    display: flex;
-    border-radius: .5rem;
-    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
-    top: 12%;
-    width: 35%;
-    height: 27rem;
-    background-color: #f7c820;
-}
-.navbar .navbar-links.active{
-    
-    right: 2rem;
-
-    transition: .4s linear;
-
-
-
-}
-.navbar .navbar-links a{
-  font-size: 1rem;
-  margin:  1rem;
-  color: #2a006a;
-
-}
-  
-  }
 
 /* INICIO ARTIGOS*/
 .content .titulo_Artigos{
@@ -286,13 +240,17 @@ form:focus{
 
   .galeria{
     background-color: #f7c820;
-    margin: 3rem;
+    margin: 10rem;
+    margin-top: 1rem;
     border-radius: 10px;
     text-align: center;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     padding: 2rem;
+  }
+  .galeria .title-galeria{
+    padding: 2.5rem;
   }
   .photo {
     margin: 10px;
@@ -320,7 +278,7 @@ form:focus{
     font-weight: normal;
     line-height: 48px;
     margin-top: 10vh; 
-    text-align: left;
+    text-align: center;
     overflow-y: hidden;
     padding-left: 50px;
   }
@@ -350,7 +308,6 @@ form:focus{
   
   .content {
     text-align: center;
-    background-color: #E3EDF9;
     margin-left: 220px;
     margin-right: 220px;
     padding: 15px;
@@ -359,50 +316,11 @@ form:focus{
   .img-body{
     overflow: hidden;
     height: auto;
+    padding: 2rem;
     width:100%;
     max-width: 100%;
-    border-radius: 15px;
+    border-radius: 50px;
   }
-  
-
-  
-  @media (max-width: 1300px) {
-    .content{
-      margin-left: 0;
-      margin-right: 0;
-      background-image: url("images/maes.png");
-      background-color: transparent;
-      
-    }
-    main{
-    padding: 0;
-  }
-  
-    .brand-logo{
-    margin-left: 0;
-    height: 75px;
-    width: 150px;
-    position: static;
-    margin-right: 10px;
-  }
-  
-    .navbar-links li a {
-      margin-right: 0;
-  }
-  
-    .navbar-links {
-      height: 100%;
-    margin-right: 0px;
-  }
-  .irao_{
-    outline-style: none;
-    
-    }
-    
-  }
-
-
-
 
   .navbar-links li a:hover{
     color: #fff;
@@ -428,6 +346,7 @@ form:focus{
   outline-style: solid;
   outline-color: #2a006a;
   outline-width: 2px;
+  align-items: center;
   }
 
 .irao_:hover{
@@ -436,3 +355,87 @@ form:focus{
   transition: 0.2s;
   }
 
+
+
+
+
+/* Responsivo */
+@media (max-width: 800px) {
+    .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width:600px) {
+    .footer-col{
+        width: 100%;
+    }
+}
+
+@media (max-width: 560px){
+
+.navbar .icons #menu{
+  display: inline-block;
+}
+.navbar .navbar-links{
+  position: fixed;
+  right: 110%;
+  display: flex;
+  border-radius: .5rem;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  top: 12%;
+  width: 35%;
+  height: 27rem;
+  background-color: #f7c820;
+}
+.navbar .navbar-links.active{
+    
+    right: 2rem;
+
+    transition: .4s linear;
+
+
+
+}
+.navbar .navbar-links a{
+  font-size: 1rem;
+  margin:  1rem;
+  color: #2a006a;
+
+}
+
+}
+@media (max-width: 1300px) {
+  .content{
+    margin-left: 0;
+    margin-right: 0;
+    background-image: url("images/maes.png");
+    background-color: transparent;
+    
+  }
+  main{
+  padding: 0;
+}
+
+  .brand-logo{
+  margin-left: 0;
+  height: 75px;
+  width: 150px;
+  position: static;
+  margin-right: 10px;
+}
+
+.navbar-links li a {
+    margin-right: 0;
+}
+
+.navbar-links {
+    height: 100%;
+  margin-right: 0px;
+}
+.irao_{
+  outline-style: none;
+  }
+  
+}
